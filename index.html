@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechieTicia | Leticia Laurian</title>
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/906/906175.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: gold;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    h1 {
+      font-size: 3rem;
+      color: gold;
+      margin: 0;
+    }
+    .typewriter {
+      font-size: 1.4rem;
+      white-space: nowrap;
+      border-right: 2px solid gold;
+      overflow: hidden;
+      width: 0;
+      animation: typing 4s steps(40, end) forwards, blink 0.7s infinite;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 2rem;
+      gap: 2rem;
+    }
+    .card {
+      border: 1px solid gold;
+      padding: 1rem;
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      background: rgba(255, 215, 0, 0.05);
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 20px gold;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .contact-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: gold;
+      color: black;
+      padding: 12px 20px;
+      border-radius: 30px;
+      box-shadow: 0 0 10px gold;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+    .why-me {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      text-align: center;
+      line-height: 1.7;
+    }
+    .logo-glow {
+      font-size: 2rem;
+      font-weight: bold;
+      color: gold;
+      text-shadow: 0 0 10px gold;
+      margin-bottom: 0.5rem;
+    }
+    @media (max-width: 800px) {
+      .projects {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-glow">TechieTicia</div>
+    <h1>Leticia Laurian</h1>
+    <div class="typewriter">Aspiring Data Analyst & Machine Learning Engineer</div>
+  </header>
+
+  <section>
+    <div class="section-title">Why Hire Me?</div>
+    <div class="why-me">
+      I'm a passionate learner with hands-on experience in building intelligent systems that solve real-world problems. 
+      My strengths lie in analytical thinking, Python automation, data visualization, Flask web apps, and AI integration.
+      I bring fresh energy, attention to detail, and powerful tech skills to every project I take on.
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">Projects</div>
+    <div class="projects">
+      <div class="card">
+        <h3>🧠 AI Resume Analyzer</h3>
+        <p>An all-in-one AI tool that analyzes resumes, scores them, predicts roles, and gives improvement suggestions.</p>
+        <a href="https://github.com/Leticia-ai04/AI-Resume-Analyzer" target="_blank" style="color: gold;">View on GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>🎓 Student Smart Study Tracker</h3>
+        <p>A full academic tracking system with AI tips, gamification, analytics, and personalized tools for students.</p>
+        <a href="https://github.com/Leticia-ai04/Student-Smart-Study-Tracker-" target="_blank" style="color: gold;">View on GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>🌐 TechieTicia Portfolio</h3>
+        <p>My own beautiful and powerful portfolio website showcasing my skills and projects, built with clean design.</p>
+        <a href="https://github.com/Leticia-ai04/TechieTicia-Portfolio" target="_blank" style="color: gold;">View on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <a class="contact-float" href="mailto:leticialaurian30@gmail.com">📨 Contact Me</a>
+
+  <footer>
+    &copy; 2025 Leticia Laurian | TechieTicia. All rights reserved.
+  </footer>
+
+</body>
+</html>
